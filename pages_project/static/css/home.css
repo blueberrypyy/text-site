@@ -1,0 +1,11 @@
+h1 {
+    color: lightblue;
+    font-size: 30px;
+}
+
+h1 {
+    color: red;
+    background-color: limegreen;
+    font-size: 30px;
+    border: 3px orange;
+}

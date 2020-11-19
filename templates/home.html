@@ -1,6 +1,42 @@
-{% extends 'base.html' %}
-{% block content %}
-<h1>
-    <p style='font-family:bradley hand'>Ashley is da dope.</p>
-</h1>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Home Page </title>
+    <link
+        href="/Users/justinschadwill/Desktop/First_Program/Django_Projects/Pages_Project/pages_project/static/css/home.css"
+        rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+
+
+    <h1 class="intro">HELLO WORLD</h1>
+    <h1>im an h1 tag</h1>
+    <h2>im an h2 tag</h2>
+    <h3>im an h3 tag</h3>
+    <h4>im an h4 tag</h4>
+    <h5>im an h5 tag</h5>
+    <h6>im an h6 tag</h6>
+
+    <p>I'm a paragraph that talks about myself and
+        my interests and hobbies</p>
+
+    <h1 class="intro">SECTION 2</h1>
+
+    <h3>Work</h3>
+    <a href="https://duckduckgo.com">click here for free food!</a>
+    <a href="https://youtube.com">click this to see videos!</a>
+
+    <!-- cmd+/ for comment -->
+    <!-- include an alt text for images if visually impaired people -->
+    <!-- view the page they can still understand what the photo is -->
+    <img src="https://i.ytimg.com/vi/5bNJEdZp3e4/maxresdefault.jpg" alt="flowers in a field" />
+    {% endblock %}
+
+    <h1>______________________________________________________</h1>
+</body>
+
+</html>
