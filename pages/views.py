@@ -11,4 +11,4 @@ class UpgradePageView(TemplateView): template_name = 'upgrade.html'
 
 class AmazonGiftView(TemplateView): template_name = 'amazon.html' 
 
-class NyTimesView(TemplateView): template_name = 'NyTime.html'
+class NyTimesView(TemplateView): template_name = 'nytime.html'
